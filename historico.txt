@@ -1,0 +1,116 @@
+Microsoft Windows [versão 10.0.26200.8655]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\ALUNO.NTDS_08>cd /d "%USERPROFILE%\desktop\exercicios-2206-main"
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 1A71-4C69
+
+ Pasta de C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main
+
+30/06/2026  22:10    <DIR>          .
+30/06/2026  19:47    <DIR>          ..
+30/06/2026  19:39           132.764 1.png
+30/06/2026  19:39           105.777 2.png
+30/06/2026  19:39            92.803 3.png
+30/06/2026  19:39           129.782 4.png
+30/06/2026  19:39            96.253 5.png
+30/06/2026  19:39           121.619 6.png
+30/06/2026  21:21             1.140 estilo.css
+30/06/2026  21:49             1.457 index.html
+30/06/2026  19:45        26.074.136 JJK-Opening.mp4
+30/06/2026  19:39             1.070 LICENSE
+30/06/2026  21:18             1.150 playlist.css
+30/06/2026  21:49             1.481 playlist.html
+30/06/2026  19:39                41 README.md
+30/06/2026  21:43         8.411.046 TR-Opening.mp4
+              14 arquivo(s)     35.170.519 bytes
+               2 pasta(s)   391.232.401.408 bytes disponíveis
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>mkdir imgs
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>mkdir vids
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>ren imgs imagens
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>ren vids videos
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 1.png imagens\1.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 2.png imagens\2.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 3.png imagens\3.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 4.png imagens\4.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 5.png imagens\5.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move 6.png imagens\6.png
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move JJK-Opening.mp4 videos\JJK-Opening.mp4
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>move TR-Opening.mp4 videos\TR-Opening.mp4
+        1 arquivo(s) movido(s).
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é 1A71-4C69
+
+ Pasta de C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main
+
+30/06/2026  22:10    <DIR>          .
+30/06/2026  19:47    <DIR>          ..
+30/06/2026  21:21             1.140 estilo.css
+30/06/2026  22:10    <DIR>          imagens
+30/06/2026  21:49             1.457 index.html
+30/06/2026  19:39             1.070 LICENSE
+30/06/2026  21:18             1.150 playlist.css
+30/06/2026  21:49             1.481 playlist.html
+30/06/2026  19:39                41 README.md
+30/06/2026  22:10    <DIR>          videos
+               6 arquivo(s)          6.339 bytes
+               4 pasta(s)   391.232.401.408 bytes disponíveis
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>tree /f
+Listagem de caminhos de pasta
+O número de série do volume é 00000053 1A71:4C69
+C:.
+│   estilo.css
+│   index.html
+│   LICENSE
+│   playlist.css
+│   playlist.html
+│   README.md
+│
+├───imagens
+│       1.png
+│       2.png
+│       3.png
+│       4.png
+│       5.png
+│       6.png
+│
+└───videos
+        JJK-Opening.mp4
+        TR-Opening.mp4
+
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>doskey /history > historico.txt
+
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
+C:\Users\ALUNO.NTDS_08\Desktop\exercicios-2206-main>
