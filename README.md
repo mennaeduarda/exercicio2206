@@ -1,2 +1,2 @@
-# exercicio2206
-Trabalho do professor Gabriel sobre Front-end. 
+# exercicios-2206
+Front-end, HTML5, CSS3
